@@ -20,6 +20,6 @@
 
         @include('partials.footer')
 
-        {{-- Fine esercizio laravel molisiana --}}
+        {{-- Fine esercizio laravel molisana --}}
     </body>
 </html>
