@@ -13,16 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Home Page
 Route::get('/', function () {
 
-    @require_once __DIR__ . './../data.php';
-
+    $data = config('data');
 
     $lunghe = [];
     $corte = [];
     $cortissime = [];
 
-    foreach($data as $card) {
+    foreach($data as $key => $card) {
+
+        $card['id'] = $key;
+
         if($card['tipo'] == 'lunga') {
             $lunghe[] = $card;
         }
@@ -34,17 +37,28 @@ Route::get('/', function () {
         }
     }
 
-    // dd($data);
-    return view('home', [ 'lunghe' => $lunghe, 'corte' => $corte, 'cortissime' => $cortissime ]);
-});
+    // dd($lunghe, $corte, $cortissime);
 
-Route::get('/products', function () {
+    // return view('home', [ 'lunghe' => $lunghe, 'corte' => $corte, 'cortissime' => $cortissime ]);
+
+    return view('home', compact('lunghe', 'corte', 'cortissime'));
+})->name('home');
+
+// Product detail
+Route::get('/product/{id}', function ($id) {
     // + blade.php
-    
-    return view('products');
-});
+    // dump($id);
 
+    $data = config('data');
+
+    $product = $data[$id];
+    $lenght = count($data) - 1;
+    
+    return view('product', compact('product', 'lenght', 'id'));
+})->name('product');
+
+// News Page
 Route::get('/news', function () {
     
     return view('news');
-});
+})->name('news');
