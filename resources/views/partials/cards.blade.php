@@ -5,10 +5,10 @@
         <div class="cards">
             @foreach($cards as $card)
                 <div class="card">
-                    <img src="{{ $card['src'] }}" alt="{{ $card['titolo'] }}">
-                    <h3>{{ $card['titolo'] }}</h3>
-
-                    <a href="{{ route('product', $card['id']) }}">Vedi prodotto</a>
+                    <a href="{{ route('product', $card['id']) }}"> 
+                        <img src="{{ $card['src'] }}" alt="{{ $card['titolo'] }}">
+                    </a>
+                    {{-- <h3>{{ $card['titolo'] }}</h3> --}}
                 </div>
             @endforeach
         </div>

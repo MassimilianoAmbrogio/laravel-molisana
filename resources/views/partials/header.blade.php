@@ -7,7 +7,7 @@
     </a>
 
     {{-- Links --}}
-    <nav>
+    <nav class="links">
         <li>
             <a href="{{ route('home') }}">Home</a>
         </li>
