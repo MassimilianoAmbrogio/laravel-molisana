@@ -1,66 +1,169 @@
 // FOOTER
 footer {
     width: 100%;
-    height: 700px;
+    height: 750px;
+    background: $white;
 
-    .cont-img {
-        width: 250px;
-        height: 140px;
-        margin-top: 100px;
+    .container {
+        width: 220px;
+        height: 60px;
+        margin-top: 40px;
     }
 
     .cont-text1 {
-        width: 340px;
-        height: 240px;
+        width: 360px;
+        height: 380px;
     }
 
     .cont-text1 .text-1 {
-        position: absolute;
-        top: 218.6%;
+        margin-top: 3px;
     }
 
     .cont-text1 .text-2 {
-        top: 212.3%;
+        margin-top: 23px;
     }
 
     .cont-text1 .text-3 {
-        top: 215%;
+        margin-top: 44px;
     }
 
     .cont-text1 .text-4{
-        top: 217.6%;
+        margin-top: 64px;
     }
 
     .cont-text1 .text-5 {
-        top: 220.2%;
+        margin-top: 84px;
     }
 
     .cont-text1 .text-6 {
-        top: 222.6%;
+        margin-top: 104px;
     }
 
     .cont-text1 .text-7 {
-        top: 225%;
+        margin-top: 124px;
     }
 
     .cont-text1 .text-8 {
-        top: 227.6%;
+        margin-top: 144px;
     }
 
     .cont-text1 .text-9 {
-        top: 230%;
+        margin-top: 164px;
     }
 
     .cont-text1 .text-10 {
-        top: 232.6%;
+        margin-top: 184px;
     }
 
     .cont-text1 .text-11 {
-        top: 235%;
+        margin-top: 204px;
     }
 
-    // .cont-img {
-    //     width: 100%;
-    //     height: 200px;
-    // }
+    .cont-text2 {
+        position: absolute;
+        float: left;
+        width: 750px;
+        height: 572px;
+        margin-left: 41%;
+        margin-top: 66px;
+    }
+
+    .cont-text2 .title1 {
+        margin-top: 3px;
+        text-transform: uppercase;
+        color: $grey;
+    }
+
+    .cont-text2 .text-1 {
+        margin-top: 50px;
+    }
+
+    .cont-text2 .text-2 {
+        margin-top: 80px;
+    }
+
+    .cont-text2 .text-3 {
+        margin-top: 110px;
+    }
+
+    .cont-text2 .text-4 {
+        margin-top: 140px;
+    }
+
+    .cont-text2 .text-5 {
+        margin-top: 170px;
+    }
+
+    .cont-text2 .text-6 {
+        margin-top: 200px;
+    }
+
+    .cont-text2 .text-7 {
+        margin-top: 230px;
+    }
+
+    .cont-text2 .text-8 {
+        margin-top: 260px;
+    }
+
+    .cont-text2 .title2 {
+        margin-top: 40.4%;
+        text-transform: uppercase;
+        color: $grey;
+    }
+
+    .cont-text2 .text-9 {
+        margin-top: 46.6%;
+    }
+    
+    .cont-text2 .text-10 {
+        margin-top: 51%;
+    }
+
+    .cont-text2 .text-11 {
+        margin-top: 55.6%;
+    }
+
+    .cont-text2 .text-12 {
+        margin-top: 60%;
+    }
+
+    .cont-text2 .text-13 {
+        margin-top: 64.4%;
+    }
+    
+    .cont-text2 .text-14 {
+        margin-top: 68.8%;
+    }
+    
+    .cont-text2 .text-15 {
+        margin-top: 73%;
+    }
+
+    .cont-text2 .title3 {
+        margin-top: 3px;
+        text-transform: uppercase;
+        color: $grey;
+    }
+
+    .cont-text2 .text-16 {
+        margin-top: 50px;
+    }
+
+    .cont-text2 .text-17 {
+        margin-top: 82px;
+    }
+
+    .cont-text2 .text-18 {
+        margin-top: 114px;
+    }
+
+    .cont-text2 .text-19 {
+        margin-top: 146px;
+    }
+
+    .cont-footer-img img {
+        width: 100%;
+        margin-top: 10%;
+    }
 }
