@@ -1,9 +1,20 @@
 // MAIN
 main {
-    margin-top: 60px;
+    margin-top: 24px;
+    background: $back-col-2;
 
     .container h2 {
         font-size: 28px;
         color: $secondary-col;
+    }
+
+    .hero h1,
+    .title-news {
+        text-align: center;
+        color: $secondary-col;
+    }
+
+    .text-news {
+        text-align: center;
     }
 }

@@ -53,6 +53,6 @@
 
     {{-- Footer Montagne --}}
     <div class="cont-footer-img">
-        <img src="./img/footer-montagne-bottom.jpg" alt="Montagne">
+        <img src="/img/footer-montagne-bottom.jpg" alt="Montagne">
     </div>
 </footer>

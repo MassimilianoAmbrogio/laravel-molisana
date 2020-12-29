@@ -4,7 +4,6 @@
 body {
   font-family: "Nunito", sans-serif;
   color: #333;
-  background: #f2f2f2;
 }
 
 img {
@@ -166,21 +165,30 @@ header .links a:hover {
 }
 
 main {
-  margin-top: 60px;
+  margin-top: 24px;
+  background: #b7dae5;
 }
 main .container h2 {
   font-size: 28px;
   color: #002d73;
 }
+main .hero h1,
+main .title-news {
+  text-align: center;
+  color: #002d73;
+}
+main .text-news {
+  text-align: center;
+}
 
 footer {
   width: 100%;
-  height: 750px;
+  height: 720px;
   background: #fff;
 }
 footer .container {
   width: 220px;
-  height: 60px;
+  height: 20px;
   margin-top: 40px;
 }
 footer .cont-text1 {
@@ -226,7 +234,7 @@ footer .cont-text2 {
   width: 750px;
   height: 572px;
   margin-left: 41%;
-  margin-top: 66px;
+  margin-top: 28px;
 }
 footer .cont-text2 .title1 {
   margin-top: 3px;

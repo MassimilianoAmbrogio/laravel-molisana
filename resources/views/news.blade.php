@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <h1>LATEST NEWS</h1>
+    <h1 class="title-news">LATEST NEWS</h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit excepturi voluptates aliquam ipsam accusamus, natus perspiciatis ullam quidem, provident quisquam veritatis animi cupiditate quos nobis adipisci ipsum tempora enim deleniti?</p>
+    <p class="text-news">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit excepturi voluptates aliquam ipsam accusamus, natus perspiciatis ullam quidem, provident quisquam veritatis animi cupiditate quos nobis adipisci ipsum tempora enim deleniti?</p>
 
 @endsection
 
