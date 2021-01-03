@@ -16,12 +16,14 @@
             @endif
         </div>
 
+        {{-- Title, img  --}}
         <div class="hero">
             <h1>{{ $product['titolo'] }}</h1>
             <img src="{{ $product['src-h'] }}" alt="{{ $product['titolo'] }}">
-            <img src="{{ $product['src-p'] }}" alt="{{ $product['titolo'] }}">
+            {{-- <img src="{{ $product['src-p'] }}" alt="{{ $product['titolo'] }}"> --}}
         </div>
 
+        {{-- description --}}
         <div class="description">
             <p>{!! $product['descrizione'] !!}</p>
         </div>
