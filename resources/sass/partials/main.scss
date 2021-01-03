@@ -1,13 +1,33 @@
 // MAIN
 main {
-    margin-top: 24px;
+    margin-top: 20px;
     background: $back-col-2;
+
+    .back-home {
+        background-image: url('../img/fondo-pag-speciali.jpg');
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
 
     .container h2 {
         font-size: 28px;
         color: $secondary-col;
     }
 
+    // Product
+    .description p, 
+    .description li, 
+    .description .text {
+        color: $secondary-col;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .description .text {
+        padding-bottom: 40px;
+    }
+
+    // News
     .hero h1,
     .title-news {
         text-align: center;
@@ -16,5 +36,6 @@ main {
 
     .text-news {
         text-align: center;
+        padding-bottom: 10px;
     }
 }

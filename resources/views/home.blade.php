@@ -2,13 +2,15 @@
 
 @section('content')
 
-{{-- Sezione lunghe --}}
-@include('partials.cards', ['cards' => $lunghe, 'title' => 'LE LUNGHE'])
+  <div class="back-home">
+    {{-- Sezione lunghe --}}
+    @include('partials.cards', ['cards' => $lunghe, 'title' => 'LE LUNGHE'])
 
-{{-- Sezione corte --}}
-@include('partials.cards', ['cards' => $corte, 'title' => 'LE CORTE'])
+    {{-- Sezione corte --}}
+    @include('partials.cards', ['cards' => $corte, 'title' => 'LE CORTE'])
 
-{{-- Sezione cortissime --}}
-@include('partials.cards', ['cards' => $cortissime, 'title' => 'LE CORTISSIME'])
+    {{-- Sezione cortissime --}}
+    @include('partials.cards', ['cards' => $cortissime, 'title' => 'LE CORTISSIME'])
+  </div>
 
 @endsection 
