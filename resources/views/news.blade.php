@@ -11,5 +11,5 @@
 @endsection
 
 @section('scripts')
-    <script src=""></script>
+    <script src={{ asset('js/app.js') }}></script>
 @endsection
